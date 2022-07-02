@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Patrick+Hand&family=Varela+Round&display=swap');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Varela Round', sans-serif;
+}
+  
+.button{
+    padding: 20px;
+    width: 54px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.row{
+    margin: 8px 0;
+    width: 82vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row input{
+    width: 230px;
+    font-size: 19px;
+    margin: 0;
+    padding: 9px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
